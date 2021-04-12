@@ -1,0 +1,121 @@
+file 19528 1590639822                                           
+version 2
+run General-0-20200528-01:23:39-4696
+attr configname General
+attr datetime 20200528-01:23:39
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 4696
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Network.node[0].app.interArrivalTime exponential(7)
+param Network.node[0].app.packetByteSize 125000
+param Network.node[0].app.destination 5
+param Network.node[2].app.interArrivalTime exponential(7)
+param Network.node[2].app.packetByteSize 125000
+param Network.node[2].app.destination 5
+
+vector 0 Network.node[0].app Delay ETV
+vector 1 Network.node[0].app "Hop Count" ETV
+vector 2 Network.node[0].app "Source Node" ETV
+vector 3 Network.node[0].net PaquetesProcesados ETV
+vector 4 Network.node[0].lnk[0] "Buffer Size" ETV
+vector 5 Network.node[0].lnk[1] "Buffer Size" ETV
+vector 6 Network.node[1].app Delay ETV
+vector 7 Network.node[1].app "Hop Count" ETV
+vector 8 Network.node[1].app "Source Node" ETV
+vector 9 Network.node[1].net PaquetesProcesados ETV
+vector 10 Network.node[1].lnk[0] "Buffer Size" ETV
+vector 11 Network.node[1].lnk[1] "Buffer Size" ETV
+vector 12 Network.node[2].app Delay ETV
+vector 13 Network.node[2].app "Hop Count" ETV
+vector 14 Network.node[2].app "Source Node" ETV
+vector 15 Network.node[2].net PaquetesProcesados ETV
+vector 16 Network.node[2].lnk[0] "Buffer Size" ETV
+vector 17 Network.node[2].lnk[1] "Buffer Size" ETV
+vector 18 Network.node[3].app Delay ETV
+vector 19 Network.node[3].app "Hop Count" ETV
+vector 20 Network.node[3].app "Source Node" ETV
+vector 21 Network.node[3].net PaquetesProcesados ETV
+vector 22 Network.node[3].lnk[0] "Buffer Size" ETV
+vector 23 Network.node[3].lnk[1] "Buffer Size" ETV
+vector 24 Network.node[4].app Delay ETV
+vector 25 Network.node[4].app "Hop Count" ETV
+vector 26 Network.node[4].app "Source Node" ETV
+vector 27 Network.node[4].net PaquetesProcesados ETV
+vector 28 Network.node[4].lnk[0] "Buffer Size" ETV
+vector 29 Network.node[4].lnk[1] "Buffer Size" ETV
+vector 30 Network.node[5].app Delay ETV
+vector 31 Network.node[5].app "Hop Count" ETV
+vector 32 Network.node[5].app "Source Node" ETV
+vector 33 Network.node[5].net PaquetesProcesados ETV
+vector 34 Network.node[5].lnk[0] "Buffer Size" ETV
+vector 35 Network.node[5].lnk[1] "Buffer Size" ETV
+vector 36 Network.node[6].app Delay ETV
+vector 37 Network.node[6].app "Hop Count" ETV
+vector 38 Network.node[6].app "Source Node" ETV
+vector 39 Network.node[6].net PaquetesProcesados ETV
+vector 40 Network.node[6].lnk[0] "Buffer Size" ETV
+vector 41 Network.node[6].lnk[1] "Buffer Size" ETV
+vector 42 Network.node[7].app Delay ETV
+vector 43 Network.node[7].app "Hop Count" ETV
+vector 44 Network.node[7].app "Source Node" ETV
+vector 45 Network.node[7].net PaquetesProcesados ETV
+vector 46 Network.node[7].lnk[0] "Buffer Size" ETV
+vector 47 Network.node[7].lnk[1] "Buffer Size" ETV
+0	2946 8 0 0 0 0 1 0 0 0 0
+1	2954 8 0 0 0 0 1 0 0 0 0
+2	2962 8 0 0 0 0 1 0 0 0 0
+3	2970 656 0 852 0 198.991769751717 27 0 26 351 6201
+4	3626 1271 0 854 0 198.991769751717 53 0 1 26 26
+5	4897 8 0 0 0 0 1 0 0 0 0
+6	4905 8 0 0 0 0 1 0 0 0 0
+7	4913 8 0 0 0 0 1 0 0 0 0
+8	4921 8 0 0 0 0 1 0 0 0 0
+9	4929 8 0 0 0 0 1 0 0 0 0
+10	4937 9 0 0 0 0 1 0 0 0 0
+11	4946 9 0 0 0 0 1 0 0 0 0
+12	4955 9 0 0 0 0 1 0 0 0 0
+13	4964 9 0 0 0 0 1 0 0 0 0
+14	4973 9 0 0 0 0 1 0 0 0 0
+15	4982 604 0 843 0 197.429447031178 24 0 23 276 4324
+16	5586 9 0 0 0 0 1 0 0 0 0
+17	5595 1171 0 845 0 197.429447031178 47 0 1 23 23
+18	6766 9 0 0 0 0 1 0 0 0 0
+19	6775 9 0 0 0 0 1 0 0 0 0
+20	6784 9 0 0 0 0 1 0 0 0 0
+21	6793 604 0 848 0 198.429547031178 24 0 23 276 4324
+22	7397 9 0 0 0 0 1 0 0 0 0
+23	7406 1171 0 850 0 198.429547031178 47 0 1 23 23
+24	8577 9 0 0 0 0 1 0 0 0 0
+25	8586 9 0 0 0 0 1 0 0 0 0
+26	8595 9 0 0 0 0 1 0 0 0 0
+27	8604 604 0 857 0 199.429647031178 24 0 23 276 4324
+28	9208 9 0 0 0 0 1 0 0 0 0
+29	9217 1171 0 859 0 199.429647031178 47 0 1 23 23
+30	10388 1472 0 841 0 193.279723910734 48 0 3.857320881207 143.42738266036 439.0294135516
+31	11860 1198 0 841 0 193.279723910734 48 0 2 94 188
+32	13058 1198 0 841 0 193.279723910734 48 0 2 44 88
+33	14256 1236 0 840 0 193.279723910734 48 0 47 1128 35720
+34	15492 9 0 0 0 0 1 0 0 0 0
+35	15501 9 0 0 0 0 1 0 0 0 0
+36	15510 9 0 0 0 0 1 0 0 0 0
+37	15519 9 0 0 0 0 1 0 0 0 0
+38	15528 9 0 0 0 0 1 0 0 0 0
+39	15537 659 0 823 0 192.184254970085 26 0 25 325 5525
+40	16196 1277 0 825 0 192.184254970085 51 0 1 25 25
+41	17473 9 0 0 0 0 1 0 0 0 0
+42	17482 9 0 0 0 0 1 0 0 0 0
+43	17491 9 0 0 0 0 1 0 0 0 0
+44	17500 9 0 0 0 0 1 0 0 0 0
+45	17509 684 0 862 0 199.991869751717 27 0 26 351 6201
+46	18193 1325 0 864 0 199.991869751717 53 0 1 26 26
+47	19518 9 0 0 0 0 1 0 0 0 0
+
