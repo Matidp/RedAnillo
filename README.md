@@ -1,6 +1,6 @@
 # Laboratorio de Simulación de Red
 
-*Redes y Sistemas Distribuidos - Laboratorio 4*
+
 
 *Bordón Mauro Ezequiel - De Pascuale Matias - Sosa Manuel*
 
